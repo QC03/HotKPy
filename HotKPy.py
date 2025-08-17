@@ -31,7 +31,7 @@ class HotKPy:
                 return True
         return False
 
-    # Call When HKey is pressed
+    # return bool if HKey is Pressed
     def isHKeyPressed(self, keyList: list) -> bool:
         if not self.isHKey(keyList):
             return False
